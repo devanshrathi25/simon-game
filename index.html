@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="simon.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <audio id="myAudio1">
+        <source src="https://www.mathsisfun.com/images/sounds/simon1.mp3" preload="auto">
+    </audio>
+
+    <audio id="myAudio2">
+        <source src="https://www.mathsisfun.com/images/sounds/simon2.mp3" preload="auto">
+    </audio>
+
+    <audio id="myAudio3">
+        <source src="https://www.mathsisfun.com/images/sounds/simon3.mp3" preload="auto">
+    </audio>
+    <audio id="myAudio4">
+        <source src="https://www.mathsisfun.com/images/sounds/simon4.mp3" preload="auto">
+    </audio>
+
+    <h1>Simon Game</h1>
+    <br>
+    <button>Start!!</button>
+    <br>
+    <br>
+    <main>
+        <section class="main">
+            <div id="red"> </div>
+            <div id="green"> </div>
+        </section>
+        <section class="main">
+            <div id="blue"> </div>
+            <div id="yellow"> </div>
+        </section>
+    </main>
+    <br>
+    <br>
+    <section id="score"><span class="boldT">Level:</span>
+        <div id="level1">0</div>
+        <div id="level2">0</div>
+        <spam><span class="boldT">High Score:</span>
+
+            <div id="level3">0</div>
+            <div id="level4">0</div>
+        </spam>
+    </section>
+    <!-- <section id="highScore">
+        High Score:
+        <div id="level3">0</div>
+        <div id="level4">0</div>
+    </section> -->
+    <br>
+    <div id="gameOver">
+        Game over!! Try again
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
