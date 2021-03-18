@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(231,207,180);
+
+}
+h1{
+    padding-left: 47%;
+    font-family: 'Syne Mono', monospace;
+}
+main div{
+    padding:9.5%;
+}
+button{
+    margin-left:49.52%;
+    border: solid red 1px;
+    padding:20px;
+    border-radius: 100%;
+    background-color: #360911;
+    color: white;
+}
+#red{
+    background-color: #c23219;
+    display: inline-block;
+    color: rgb(255,40,0);
+    border-top-left-radius: 50%;
+}
+#green{
+    background-color:#4b9653;
+    display: inline-block;
+    color: green;
+    border-top-right-radius: 50%;
+}
+#blue{
+    background-color: #1e94a8;
+    display: inline-block;
+    color: blue;
+    border-bottom-left-radius: 50%;
+}
+#yellow{
+    background-color: #cccc2b;
+    display: inline-block;
+    border-bottom-right-radius: 50%;
+}
+main{
+    padding-left:40%
+}
+#hello {
+    position: absolute;
+    left: 49%;
+    top: 46%;
+    width: 6%;
+    height: 12%;
+    z-index: 2;
+    background-color: black;
+    color:chocolate;
+    border-radius: 100%;
+    text-align: center;
+}
+
+#loose{
+    padding-left: 44%;
+    display: none;
+}
+
+#level1,#level2{
+    display: inline-block;
+    border: solid red 1px;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: bold;
+}
+#level3,#level4{
+    display: inline-block;
+    border: solid red 1px;
+    padding: 2%;
+    background-color: white;
+    border-radius: 10%;
+    font-weight: bold;
+}
+/* #level2{
+    display: inline-block;
+    border: solid red 1px;
+    padding: 2%;
+
+} */
+#score{
+    padding-left:40%;
+    font-weight: bold;
+}
+.boldT{
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+}
+spam{
+    margin-left: 4%;
+}
+#gameOver{
+    display: none;
+    padding-left: 44%;
+    font-size: 2em;
+}
