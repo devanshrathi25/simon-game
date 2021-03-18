@@ -1,7 +1,7 @@
 # Simon Game #
 
 Hello there!!
-Play a game of Simon.
+Lets play Simon Game :D
 
 ## Demo Link ##
 https://devanshrathi25.github.io/simon-game/
@@ -14,5 +14,5 @@ https://devanshrathi25.github.io/simon-game/
 * The score gets updated as you keep on clearing the level.
 
 
-**This is a very addictive game and you are definitely gonna love this!! **
+**This is a very addictive game and you are definitely gonna love this!!**
 
